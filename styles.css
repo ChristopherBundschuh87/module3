@@ -1,0 +1,139 @@
+/* Stylesheet Coursera Module3 "Our Menu!" interim task authored by C_Bundschuh */
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS"
+}
+#nav_header {
+  background-color: rgb(7, 250, 169);
+  height: 80px;
+  border-radius: 0;
+  border: 0;  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: auto; 
+  z-index: 100;
+}
+.navbar-brand{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.navbar-brand h1 { /*Company Name */
+  color: #0347f4;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(15, 185, 215);
+}
+#nav-list {
+  position: relative;
+  position: relative;
+  z-index: 1;
+}
+#nav-list a{
+  background-color: #d4bb13;
+  color: #071bf8;
+  text-align: center;
+}
+#nav-list a:hover {
+    background: rgb(7, 250, 169)}
+    
+  #nav-list a span {
+      font-size: 1.8em;
+    
+}
+#menu_header {
+  font-family: "Comic Sans MS";
+  text-align: center;
+  margin-bottom: 15px;
+}
+section {
+  position: relative;
+  padding: 15px;
+  width: 95%;
+}
+p {
+  position: relative;
+  clear: right;
+}
+section div {
+  position: relative;
+  width: 100%;
+  background-color: rgb(7, 250, 169);
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.chicken_head {
+  text-align: center;
+  font-weight: bold;
+  width: 120px; 
+  background-color: #f699a7f0;
+  border: 2px solid black;
+  margin: -2px auto -2px auto;
+}
+.beef_head {
+  text-align: center;
+  font-weight: bold;
+  width: 120px;
+  color: white;
+  background-color: #cb122ef0;
+  border: 2px solid black;
+  margin: -2px auto -2px auto;
+}
+.shushi_head {
+   text-align: center;
+   font-weight: bold;
+   width: 120px;
+   background-color: #d4bb13;
+   border: 2px solid black;
+   margin: -2px -2px 10px;
+   margin: -2px auto -2px auto;
+}
+.box {
+  background-color: rgb(7, 250, 169);
+  height: 150px;
+  padding: 5px;
+  border: none;
+  margin: 5px;
+  overflow: hidden;
+}
+/* Large device responsive design */
+@media (min-width: 992px) {
+  .column-lg-4 {
+      float: left;
+      width: 33.33%;
+  }
+}
+/* Medium device responsive design */
+@media (min-width: 768px) and (max-width: 991px) {
+  .colmn-md-6 {
+      float: left;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .colmn-md-12 {
+      float: left;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+/* Small device responsive design */
+@media (max-width: 767px) {
+  .colmn-sm-12 {
+      float: left;
+      width: 100%;
+  }
+}
+/* Have fun with this! */
